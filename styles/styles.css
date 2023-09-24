@@ -29,7 +29,7 @@ p{
     line-height: 27px;
     font-weight: 400; 
 }
-.preview{
+.preview__img{
     margin-bottom: 150px;
     position: relative;
     width: 100%;
@@ -74,7 +74,7 @@ h3 {
     line-height: 27.32px;
     text-decoration: none;
 }
-.link{
+.services-link{
     margin-bottom: 150px;
     border-radius: 5px;
     text-decoration: none;
@@ -87,7 +87,7 @@ h3 {
     width: 255px;
     transition: 0.5s;
 }
-.link:hover{
+.services-link:hover{
     background-color: #FFFFFF;
     color: #AD1818;
 }
@@ -323,7 +323,7 @@ header{
     width: 1400px;
     height: 717px;
 }
-.project{
+.project-pic{
     margin-top: 150px;
     width: 100%;
     height: 717px;
@@ -333,7 +333,7 @@ header{
     background-position: 50% 50%;
     position: relative;
 }
-.project__parag{
+.project-pic__parag{
     color: #FFF;
     font-size: 30px;
     font-weight: 400;
@@ -407,7 +407,7 @@ header{
     font-size: 60px;
     line-height: 60px;
 }
-.section_black_footer{
+.section-black-footer{
     padding-top: 60px;
     background-color:#121212;   
     width: 100%;
