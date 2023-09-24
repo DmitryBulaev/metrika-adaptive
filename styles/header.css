@@ -1,6 +1,11 @@
 header{
+    margin: 0 auto; 
     padding: 33px 124px 70px 124.65px ;
     height: 25px;
+    width: 1400px;
+    background-color: #fff;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 .Logo{
     height: 21.42px;
