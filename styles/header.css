@@ -1,0 +1,33 @@
+header{
+    padding: 33px 124px 70px 124.65px ;
+    height: 25px;
+}
+.Logo{
+    height: 21.42px;
+    width: 126.889px;
+}
+.Logo_link{
+    margin-right: 548px;
+    display: inline-block;
+}
+.nav{
+    float: right;
+    font-size: 18px;
+    line-height: 24.59px;
+    height: 25px;
+    font-weight: 400;
+}
+.nav__link{
+    display: inline-block;
+    margin-left: 58px;
+    text-decoration: none;
+    color: #121212; 
+    transition: 0.5s;
+}
+.nav__link:first-child{
+    margin-left: 0;
+}
+.nav__link:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid #121212 ;
+}
