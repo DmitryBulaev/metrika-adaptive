@@ -67,15 +67,6 @@ h3 {
     font-weight: 400;
     color: #121212;
 }
-.project__link{
-    color: #AD1818;
-    display: block;
-    width: 127px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 27.32px;
-    text-decoration: none;
-}
 .services-link{
     margin-bottom: 150px;
     border-radius: 5px;
@@ -92,42 +83,6 @@ h3 {
 .services-link:hover{
     background-color: #FFFFFF;
     color: #AD1818;
-}
-.project__description{
-    margin-bottom: 15px;
-    width: 100%;
-    height: 27px;
-    font-size: 30px;
-    line-height: 27px;
-}
-.project__img{
-    width: 100%;
-    height: 450px;
-    margin-bottom: 15px;
-}
-.all-project-bottom__link{
-    display: block;
-    width: 100%;
-    height: 149px;
-    border: 1px solid #AD1818;
-    border-radius: 5px;
-    text-align: center;
-    color: #AD1818;
-    text-decoration: none;
-    padding-top: 56px;
-    padding-bottom: 56px;
-    transition: 0.5s;
-}
-.all-project-bottom__link__text{
-    font-size: 30px;
-}
-.all-project-bottom__link:hover{
-    background-color: #AD1818;
-    color: #FFFFFF;
-}
-.all-project-bottom{
-    margin-bottom: 150px;
-    width: 100%;
 }
 @media (max-width: 1199px) {
     .container{
