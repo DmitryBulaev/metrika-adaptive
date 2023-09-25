@@ -7,13 +7,19 @@ header{
     padding-left: 125px;
     padding-right: 125px;
 }
-.Logo{
-    height: 21.42px;
-    width: 126.889px;
-}
-.Logo_link{
+.logo-wrapper{
     margin-right: 548px;
     display: inline-block;
+}
+.logo__img{
+    height: 21.42px;
+    width: 126.889px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo__link{
+    height: 21.42px;
+    width: 126.889px;
 }
 .nav{
     float: right;

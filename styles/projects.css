@@ -19,6 +19,12 @@
     line-height: 27.32px;
     text-decoration: none;
 }
+.bottom-wrapper{
+    margin-bottom: 150px;
+}
+.all-project-bottom{
+    width: 100%;
+}
 .all-project-bottom__link{
     display: block;
     width: 100%;
@@ -32,14 +38,10 @@
     padding-bottom: 56px;
     transition: 0.5s;
 }
-.all-project-bottom__link__text{
+.all-project-bottom__text{
     font-size: 30px;
 }
 .all-project-bottom__link:hover{
     background-color: #AD1818;
     color: #FFFFFF;
-}
-.all-project-bottom{
-    margin-bottom: 150px;
-    width: 100%;
 }
