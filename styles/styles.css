@@ -1,6 +1,7 @@
 @import "header.css";
 @import "projects.css";
 @import "footer.css";
+@import "about-us.css";
 
 html{
     scroll-behavior: smooth;
@@ -75,11 +76,6 @@ section{
         line-height: 31.62px;
     }
 }
-@media (max-width: 400px) {
-    .intro-text{
-        width: 317px;
-    }
-}
 .preview__img{
     position: relative;
     width: 100%;
@@ -123,6 +119,26 @@ section{
         width: 312px;
     }
 }
+h2{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24.59px;
+    font-weight: 400;
+    color: #121212;
+}
+@media (max-width: 1199px) {
+    h2{
+        width: 100%;
+        font-size: 18px;
+    }
+}
+@media (max-width: 767px) {
+    h2{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+}
 p{
     font-size: 20px;
     line-height: 27px;
@@ -130,7 +146,6 @@ p{
 }
 @media (max-width: 767px) {
     p{
-        width: 100%;
         font-size: 16px;
         line-height: normal;
     }
