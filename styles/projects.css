@@ -25,6 +25,7 @@
 @media (max-width: 1199px) {
     .project__img{
         height: 450px;
+        object-fit: cover;
     }
 }
 @media (max-width: 767px) {

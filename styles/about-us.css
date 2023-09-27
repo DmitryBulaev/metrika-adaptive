@@ -23,7 +23,6 @@
     }
 }
 .about-us__botton{
-    margin-bottom: 150px;
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
@@ -39,13 +38,11 @@
 }
 @media (max-width: 1199px) {
     .about-us__botton{
-        margin-bottom: 120px;
         padding: 20px 40px;
     }
 }
 @media (max-width: 767px) {
     .about-us__botton{
-        margin-bottom: 80px;
         padding: 14.5px 27px;
     }
 }
