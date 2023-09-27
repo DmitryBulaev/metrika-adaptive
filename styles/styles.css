@@ -110,13 +110,14 @@ section{
 @media (max-width: 1199px) {
     .preview__text{
         bottom: 30px;
+        width: 430px
     }
 }
 @media (max-width: 767px) {
     .preview__text{
         left: 15px;
         bottom: 15px;
-        width: 312px;
+        width: 256px;
     }
 }
 h2{
