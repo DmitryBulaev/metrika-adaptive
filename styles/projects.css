@@ -5,7 +5,7 @@
     .project-wrapper{
         margin-bottom: 80px;
     }
-    .project-wrapper:last-child(1){
+    .project-wrapper:nth-last-child(1){
         margin-bottom: 102px;
     }
 }
@@ -13,7 +13,7 @@
     .project-wrapper{
         margin-bottom: 49px;
     }
-    .project-wrapper:last-child(1){
+    .project-wrapper:nth-last-child(1){
         margin-bottom: 60px;
     }
 }
