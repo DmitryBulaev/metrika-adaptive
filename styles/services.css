@@ -1,15 +1,23 @@
-.frame-black{
-    background-color:#121212;
-    margin: auto;
-    width: 1400px;
-}
-.section__black{
+.section-black{
+    background-color:#121212;;
     width: 100%;
-    background-color:#121212;
-    height: 2557px;
+    padding-top: 151px;
+}
+.container-black{
+    width: 1150px;
+    margin: 0 auto;
+}
+.H2{
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.services-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 70px;
 }
 .service{
-    margin-bottom: 60px;
+    width:calc(50% - 5.5px);
 }
 .service__description{
     width: 400;
@@ -18,9 +26,8 @@
     color: #FFFFFF;
 }
 .service__img{
+    width: 100%;
     margin-bottom: 15px;
     display: block;
-}
-.service:nth-last-child(1){
-    margin-bottom: 0px;
+    object-fit: cover;
 }

@@ -2,7 +2,7 @@
 @import "projects.css";
 @import "footer.css";
 @import "about-us.css";
-@import "services,css";
+@import "services.css";
 
 html{
     scroll-behavior: smooth;
@@ -198,10 +198,6 @@ p{
 }
 .full-wigth-botton__link:hover{
     background-color: #AD1818;
-    color: #FFFFFF;
-}
-.H2{
-    margin-bottom: 33px;
     color: #FFFFFF;
 }
 .container__pic{
