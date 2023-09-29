@@ -2,6 +2,7 @@
 @import "projects.css";
 @import "footer.css";
 @import "about-us.css";
+@import "services,css";
 
 html{
     scroll-behavior: smooth;
@@ -199,40 +200,9 @@ p{
     background-color: #AD1818;
     color: #FFFFFF;
 }
-.frame-black{
-    background-color:#121212;
-    margin: auto;
-    width: 1400px;
-}
-.section__black{
-    width: 100%;
-    background-color:#121212;
-    height: 2557px;
-}
-.box-2{
-    padding-top: 151px;
-    padding-left: 125px;
-    width: 1150px;
-}
 .H2{
     margin-bottom: 33px;
     color: #FFFFFF;
-}
-.service{
-    margin-bottom: 60px;
-}
-.service__description{
-    width: 400;
-    font-size: 30px;
-    line-height: 41px;
-    color: #FFFFFF;
-}
-.service__img{
-    margin-bottom: 15px;
-    display: block;
-}
-.service:nth-last-child(1){
-    margin-bottom: 0px;
 }
 .container__pic{
     margin: auto;

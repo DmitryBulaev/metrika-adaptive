@@ -1,0 +1,26 @@
+.frame-black{
+    background-color:#121212;
+    margin: auto;
+    width: 1400px;
+}
+.section__black{
+    width: 100%;
+    background-color:#121212;
+    height: 2557px;
+}
+.service{
+    margin-bottom: 60px;
+}
+.service__description{
+    width: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.service__img{
+    margin-bottom: 15px;
+    display: block;
+}
+.service:nth-last-child(1){
+    margin-bottom: 0px;
+}
