@@ -11,6 +11,12 @@
 @media (max-width: 1199px) {
     .container-black{
         width: 100%;
+        padding: 151px 17px 120px 17px;
+    }
+}
+@media (max-width: 767px) {
+    .container-black{
+        padding: 80px 13px;
     }
 }
 .H2{
@@ -27,31 +33,27 @@
     margin-bottom: 106px;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 70px;
+    row-gap: 85px;
     justify-content: space-between;
 }
 @media (max-width: 1199px) {
     .services-wrapper{
-        padding: 0 17px;
+        margin-bottom: 80px;
+        row-gap: 80px;
     }
 }
 @media (max-width: 767px) {
     .services-wrapper{
-        
+        margin-bottom: 60px;
+        row-gap: 60px;
     }
 }
 .service{
     width:calc(50% - 5.5px);
 }
-.service__description{
-    font-size: 30px;
-    line-height: 41px;
-    color: #FFFFFF;
-}
 @media (max-width: 767px) {
-    .service__description{
-        font-size: 18px;
-        line-height: 31px;
+    .service{
+        width: 100%;
     }
 }
 .service__img{
@@ -61,11 +63,67 @@
 }
 @media (max-width: 1199px) {
     .service__img{
-        
+        margin-bottom: 15px;
     }
 }
 @media (max-width: 767px) {
     .service__img{
-        
+        margin-bottom: 10px;
     }
+}
+.service__description{
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+@media (max-width: 1199px) {
+    .service__description{
+        font-size: 25px;
+    }
+}
+@media (max-width: 767px) {
+    .service__description{
+        font-size: 18px;
+        line-height: 31px;
+    }
+}
+.botton-wrapper_dark{
+    margin-bottom: 0;
+}
+
+.full-wigth-botton_dark{
+    width: 100%;
+}
+.full-wigth-botton__link_dark{
+    display: block;
+    width: 100%;
+    height: 149px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #AD1818;
+    text-decoration: none;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    transition: 0.5s;
+}
+@media (max-width: 767px) {
+    .full-wigth-botton__link{
+        height: 100px;
+        padding-bottom: 37px;
+        padding-top: 37px;
+    }
+}
+.full-wigth-botton__text_dark{
+    font-size: 30px;
+}
+@media (max-width: 767px) {
+    .full-wigth-botton__text{
+        font-size: 22px;
+    }
+}
+.full-wigth-botton__link_dark:hover{
+    background-color: #121212;
+    color: #AD1818;
 }
