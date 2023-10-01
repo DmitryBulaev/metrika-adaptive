@@ -36,7 +36,6 @@ body{
 }
 @media (max-width: 767px) {
     .container{
-        width: 100%;
         padding-left: 13px;
         padding-right: 12px;
     }
@@ -64,7 +63,7 @@ section{
 }
 @media (max-width: 1199px) {
     .intro-text{
-        width: 778px;
+        width: 100%;
         font-size: 50px;
         line-height: 60px;
     }
@@ -72,7 +71,6 @@ section{
 @media (max-width: 767px) {
     .intro-text{
         margin-bottom: 25px;
-        width: 100%;
         font-size: 30px;
         line-height: 31.62px;
     }
