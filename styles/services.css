@@ -56,6 +56,9 @@
         width: 100%;
     }
 }
+.img-container{
+    position: relative;
+}
 .service__img{
     width: 100%;
     margin-bottom: 20px;
@@ -70,6 +73,24 @@
     .service__img{
         margin-bottom: 10px;
     }
+}
+.label-wrapper{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+}
+.label{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: #AD1818;
+}
+.label__text{
+    font-size: 22px;
+    color: #FFFFFF;
 }
 .service__description{
     font-size: 30px;
