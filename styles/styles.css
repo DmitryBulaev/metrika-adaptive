@@ -3,6 +3,7 @@
 @import "footer.css";
 @import "about-us.css";
 @import "services.css";
+@import "comments.css";
 
 html{
     scroll-behavior: smooth;
@@ -148,6 +149,45 @@ p{
     p{
         font-size: 16px;
         line-height: normal;
+    }
+}
+.section-black{
+    background-color:#121212;;
+    width: 100%;
+}
+.container-black{
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 151px;
+    padding-bottom: 150px;
+}
+@media (max-width: 1199px) {
+    .container-black{
+        width: 100%;
+        padding: 151px 17px 120px 17px;
+    }
+}
+@media (max-width: 767px) {
+    .container-black{
+        padding: 80px 13px;
+    }
+}
+.container-comment{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 150px 0 157px 0;
+}
+@media (max-width: 1199px) {
+    .container-comment{
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 767px) {
+    .container-comment{
+        padding-left: 13px;
+        padding-right: 12px;
     }
 }
 .container__pic{
