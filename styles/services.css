@@ -76,8 +76,19 @@
 }
 .label-wrapper{
     position: absolute;
-    top: 31px;
+    top: 32px;
     left: 30px;
+}
+@media (max-width: 1199px) {
+    .label-wrapper{
+        left: 32px;
+    }
+}
+@media (max-width: 767px) {
+    .label-wrapper{
+       left: 24px;
+       top: 23px;
+    }
 }
 .label{
     height: 40px;
@@ -88,9 +99,30 @@
     border-radius: 5px;
     background-color: #AD1818;
 }
+@media (max-width: 1199px) {
+    .label{
+        padding: 0 25px;
+    }
+}
+@media (max-width: 767px) {
+    .label{
+       height: 30px;
+       padding: 0 25px;
+    }
+}
 .label__text{
     font-size: 22px;
     color: #FFFFFF;
+}
+@media (max-width: 1199px) {
+    .label__text{
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .label__text{
+       font-size: 14px;
+    }
 }
 .service__description{
     font-size: 30px;
