@@ -97,7 +97,7 @@ section{
 }
 @media (max-width: 400px) {
     .preview__img{
-        background-image: url('resources/preview-mobile.png');
+        background-image: url('/resources/preview-mobile.png');
     }
 }
 .preview__text {

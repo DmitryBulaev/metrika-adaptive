@@ -1,11 +1,10 @@
 .row{
-    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 @media (max-width: 767px) {
     .row{
-        margin-bottom: 0;
         flex-direction: column;
     }
 }
@@ -31,6 +30,14 @@
     .col{
         margin-bottom: 80px;
         width: 100%;
+    }
+}
+.col_first{
+    margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+    .col_first{
+        margin-bottom: 80px;
     }
 }
 .comment__title{
@@ -67,8 +74,6 @@
 }
 .col_big{
     width: 845px;
-    display: flex;
-    flex-direction: row;
 }
 @media (max-width: 1199px) {
     .col_big{
