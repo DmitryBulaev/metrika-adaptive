@@ -2,18 +2,17 @@
     display: flex;
     justify-content: space-between;
 }
-.comments-title{
+.comments{
     margin-bottom: 30px;
     font-size: 18px;
 }
-.col{
+.comment{
     width: calc(50% - 25px);
 }
 .comment__title{
     margin-bottom: 14px;
     font-size: 45px;
-    line-height: 61px;
 }
 .comment__text{
-    font-size: 22px;
+
 }
