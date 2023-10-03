@@ -80,7 +80,7 @@ section{
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url('resources/Preview.png');
+    background-image: url('/resources/Preview.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -180,14 +180,12 @@ p{
 @media (max-width: 1199px) {
     .container-comment{
         width: 100%;
-        padding-left: 16px;
-        padding-right: 15px;
+        padding: 117px 15px 120px 16px;
     }
 }
 @media (max-width: 767px) {
     .container-comment{
-        padding-left: 13px;
-        padding-right: 12px;
+        padding: 80px 13px 80px 14px;
     }
 }
 .container__pic{
