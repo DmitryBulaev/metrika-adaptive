@@ -8,6 +8,7 @@
         font-size: 14px;
     }
 }
+
 .services-wrapper{
     margin-bottom: 106px;
     display: flex;
@@ -27,6 +28,7 @@
         row-gap: 60px;
     }
 }
+
 .service{
     width:calc(50% - 5.5px);
 }
@@ -35,9 +37,11 @@
         width: 100%;
     }
 }
+
 .img-container{
     position: relative;
 }
+
 .service__img{
     width: 100%;
     margin-bottom: 20px;
@@ -53,6 +57,7 @@
         margin-bottom: 10px;
     }
 }
+
 .label-wrapper{
     position: absolute;
     top: 32px;
@@ -69,6 +74,7 @@
        top: 23px;
     }
 }
+
 .label{
     height: 40px;
     display: flex;
@@ -89,6 +95,7 @@
        padding: 0 25px;
     }
 }
+
 .label__text{
     font-size: 22px;
     color: #FFFFFF;
@@ -103,6 +110,7 @@
        font-size: 14px;
     }
 }
+
 .service__description{
     font-size: 30px;
     line-height: 41px;
@@ -119,6 +127,7 @@
         line-height: 31px;
     }
 }
+
 .botton-wrapper_dark{
     margin-bottom: 0;
 }

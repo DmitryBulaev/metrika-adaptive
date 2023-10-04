@@ -7,10 +7,12 @@ header{
     padding-left: 125px;
     padding-right: 125px;
 }
+
 .logo-wrapper{
     margin-right: 548px;
     display: inline-block;
 }
+
 .logo__img{
     height: 21.42px;
     width: 126.889px;
@@ -21,6 +23,7 @@ header{
     height: 21.42px;
     width: 126.889px;
 }
+
 .nav{
     display: inline-block;
     font-size: 18px;
@@ -28,6 +31,7 @@ header{
     height: 25px;
     font-weight: 400;
 }
+
 .nav__link{
     display: inline-block;
     margin-left: 58px;

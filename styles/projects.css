@@ -17,6 +17,7 @@
         margin-bottom: 60px;
     }
 }
+
 .project__img{
     width: 100%;
     height: 450px;
@@ -34,6 +35,7 @@
         height: 250px;
     }
 }
+
 .project__description{
     margin-bottom: 15px;
     width: 100%;
@@ -55,6 +57,7 @@
         height: 25px;
     }
 }
+
 .project__link{
     color: #AD1818;
     display: block;
@@ -71,6 +74,7 @@
         line-height: 22px;
     }
 }
+
 .botton-wrapper{
     margin-bottom: 150px;
 }
@@ -84,6 +88,7 @@
         margin-bottom: 144px;
     }
 }
+
 .full-wigth-botton{
     width: 100%;
 }

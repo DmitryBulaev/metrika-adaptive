@@ -4,15 +4,18 @@
     width: 100%;
     height: 229px;
 }
+
 .footer-nav-wrapper{
     margin: 0 auto;
     height: 25px;
     width: 442px;
 }
+
 .nav_theme-dark{
     height: 25px;
     width: 442px;
 }
+
 .nav_theme-dark .nav__link{
     margin-right: 50px;
     margin-left: 0;
@@ -24,12 +27,15 @@
     transition: 0.5s;
     display: inline-block;
 }
+
 .nav_theme-dark .nav__link:nth-last-child(1){
     margin: auto;
 }
-.nav nav_theme-dark .nav__link:hover{
+
+.nav_theme-dark .nav__link:hover{
     opacity: 0.5;
 }
+
 .footer-text{
     margin-top: 87px;
     text-align: center;

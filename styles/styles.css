@@ -23,7 +23,8 @@ body{
         width: 100%;
         padding: 0;
     }
-}   
+}
+ 
 .container{
     width: 1150px;
     margin: 0 auto;
@@ -41,6 +42,7 @@ body{
         padding-right: 12px;
     }
 }
+
 section{
     margin-bottom: 150px;
 }
@@ -54,6 +56,7 @@ section{
         margin-bottom: 80px;
     }
 }
+
 .intro-text{
     margin-bottom: 30px;
     width: 956px;
@@ -76,6 +79,7 @@ section{
         line-height: 31.62px;
     }
 }
+
 .preview__img{
     position: relative;
     width: 100%;
@@ -100,6 +104,7 @@ section{
         background-image: url('/resources/preview-mobile.png');
     }
 }
+
 .preview__text {
     color: #FFFFFF;
     position: absolute;
@@ -120,6 +125,7 @@ section{
         width: 256px;
     }
 }
+
 h2{
     margin-bottom: 30px;
     font-size: 18px;
@@ -140,6 +146,7 @@ h2{
         margin-bottom: 20px;
     }
 }
+
 p{
     font-size: 20px;
     line-height: 27px;
@@ -151,10 +158,12 @@ p{
         line-height: normal;
     }
 }
+
 .section-black{
     background-color:#121212;;
     width: 100%;
 }
+
 .container-black{
     width: 1150px;
     margin: 0 auto;
@@ -172,6 +181,7 @@ p{
         padding: 80px 13px;
     }
 }
+
 .container-comment{
     width: 1150px;
     margin: 0 auto;
@@ -188,6 +198,7 @@ p{
         padding: 80px 13px 80px 14px;
     }
 }
+/* 
 .container__pic{
     margin: auto;
     width: 1400px;
@@ -276,4 +287,4 @@ p{
 .connection_mail{
     font-size: 60px;
     line-height: 60px;
-}
+} */
