@@ -74,16 +74,11 @@
     }
 }
 
-.comment_big{
-    width: 845px;
-}
-@media (max-width: 1199px) {
-    .comment_big{
-        width: 680px;
-    }
+.comment:last-child:nth-child(2n+1){
+    width: 75%;
 }
 @media (max-width: 767px) {
-    .comment_big{
+    .comment:last-child:nth-child(2n+1){
         width: 100%;
     }
 }
