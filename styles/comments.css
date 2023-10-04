@@ -26,16 +26,16 @@
     }
 }
 
-.col{
+.comment{
     width: calc(50% - 25px);
 }
 @media (max-width: 1199px) {
-    .col{
+    .comment{
         width: calc(50% - 5px)
     }
 }
 @media (max-width: 767px) {
-    .col{
+    .comment{
         width: 100%;
     }
 }
@@ -74,16 +74,16 @@
     }
 }
 
-.col_big{
+.comment_big{
     width: 845px;
 }
 @media (max-width: 1199px) {
-    .col_big{
+    .comment_big{
         width: 680px;
     }
 }
 @media (max-width: 767px) {
-    .col_big{
+    .comment_big{
         width: 100%;
     }
 }
