@@ -1,3 +1,22 @@
+.gallery{
+    position: relative;
+}
+.gallery__title{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 1;
+    color: white;
+    font-size: 22px;
+}
+.gallery__parag{
+    position: absolute;
+    left: 70px;
+    bottom: 110px;
+    z-index: 1;
+    color: white;
+    font-size: 30px;
+}
 .gallery__slides{
     height: 717px;
     position: relative;
@@ -12,4 +31,14 @@
 }
 .gallery__slide_active{
     opacity: 1;
+}
+.gallery__controls{
+    position: absolute;
+    z-index: 1;
+    bottom: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 1200px;
 }
