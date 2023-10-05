@@ -1,0 +1,15 @@
+.gallery__slides{
+    height: 717px;
+    position: relative;
+}
+.gallery__slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;    
+}
+.gallery__slide_active{
+    opacity: 1;
+}
