@@ -1,0 +1,50 @@
+.contacts-section{
+    margin: 0 auto;
+    width: 1150px;
+    padding: 150px 0;
+}
+.p_contacts{
+    font-size: 18px;
+}
+.cantacts-wrapper{
+    margin-top: 74px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 104px;
+}
+.contact__tel,
+.contact__mail{
+    position: relative;
+    font-size: 60px;
+    text-decoration: none;
+    color: #121212;
+}  
+.contact__tel:before{
+    content: '';
+    position: absolute;
+    top: -26px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('phone-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact__mail:before{
+    content: '';
+    position: absolute;
+    top: -26px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('mail-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact__tel:hover,
+.contact__mail:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid #121212 ;
+}
