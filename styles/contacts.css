@@ -14,37 +14,40 @@
     flex-direction: row;
     gap: 104px;
 }
-.contact__tel,
+.contact__phone,
 .contact__mail{
     position: relative;
     font-size: 60px;
-    text-decoration: none;
-    color: #121212;
 }  
-.contact__tel:before{
+.contact__phone:before{
     content: '';
     position: absolute;
-    top: -26px;
+    top: -53px;
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('phone-icon.png');
+    background-image: url('/resources/phone-icon.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .contact__mail:before{
     content: '';
     position: absolute;
-    top: -26px;
+    top: -53px;
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('mail-icon.png');
+    background-image: url('/resources/mail-icon.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.contact__tel:hover,
-.contact__mail:hover{
+.contact__phone_link,
+.contact__mail_link{
+    text-decoration: none;
+    color: #121212;
+}
+.contact__phone_link:hover,
+.contact__mail_link:hover{
     opacity: 0.5;
     border-bottom: 1px solid #121212 ;
 }
