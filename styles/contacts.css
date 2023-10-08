@@ -46,7 +46,7 @@
 @media (max-width: 767px) {
     .contacts{
         flex-direction: column;
-        gap: 70px;
+        gap: 60px;
     }
 }
 

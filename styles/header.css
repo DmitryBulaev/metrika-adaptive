@@ -25,16 +25,10 @@ header{
 }
 
 .nav{
-    display: inline-block;
-    font-size: 18px;
-    line-height: 24.59px;
-    height: 25px;
-    font-weight: 400;
+    display: flex;
 }
-
+    
 .nav__link{
-    display: inline-block;
-    margin-left: 58px;
     text-decoration: none;
     color: #121212; 
     transition: 0.5s;
