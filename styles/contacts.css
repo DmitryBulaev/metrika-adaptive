@@ -54,24 +54,27 @@
 .contact__mail{
     position: relative;
     font-size: 60px;
+    line-height: 70px;
 }
 @media (max-width: 1199px) {
     .contact__phone,
     .contact__mail{
         font-size: 45px;
+        line-height: 55px;
     }
 }
 @media (max-width: 767px) {
     .contact__phone,
     .contact__mail{
         font-size: 35px;
+        line-height: 45px;
     }
 }
 
 .contact__phone:before{
     content: '';
     position: absolute;
-    top: -53px;
+    top: -50px;
     display: block;
     width: 24px;
     height: 24px;
@@ -83,7 +86,7 @@
 .contact__mail:before{
     content: '';
     position: absolute;
-    top: -53px;
+    top: -50px;
     display: block;
     width: 24px;
     height: 24px;
@@ -108,5 +111,5 @@
 .contact__phone_link:hover,
 .contact__mail_link:hover{
     opacity: 0.5;
-    border-bottom: 1px solid #121212 ;
+    border-bottom: 1px solid #121212;
 }
