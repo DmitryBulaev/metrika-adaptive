@@ -47,7 +47,7 @@
     .contacts{
         flex-direction: column;
         gap: 60px;
-        justify-content: left;
+        justify-content: space-between;
     }
 }
 
@@ -85,25 +85,27 @@
 .contact__mail{
     position: relative;
     font-size: 60px;
-    line-height: 70px;
     text-decoration: none;
     color: #121212;
+    height: 70px;
 }
 @media (max-width: 1199px) {
     .contact__phone,
     .contact__mail{
         font-size: 45px;
-        line-height: 55px;
+        height: 55px;
     }
 }
 @media (max-width: 767px) {
     .contact__phone{
         font-size: 35px;
-        line-height: 45px;
+        height: 45px;
+        width: 269px;
     }
     .contact__mail{
         font-size: 35px;
-        line-height: 45px;
+        height: 45px;
+        width: 203px;
     }
 }
 

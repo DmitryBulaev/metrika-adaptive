@@ -16,14 +16,15 @@ footer{
 .nav_theme-dark{
     display: flex;
     gap: 35px;
+    height: 35px;
      
 }
 @media (max-width: 767px) {
     .nav_theme-dark{
         gap: 10px;
+        height: 35px;
     }
 }
-
 
 .nav_theme-dark .nav__link{
     display: block;
