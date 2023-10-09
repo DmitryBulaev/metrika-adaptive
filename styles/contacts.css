@@ -78,7 +78,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('/resources/phone-icon.png');
+    background-image: url('resources/phone-icon.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +90,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url('/resources/mail-icon.png');
+    background-image: url('resources/mail-icon.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
