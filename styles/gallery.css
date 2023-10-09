@@ -87,28 +87,36 @@
 }
 .gallery__controls{
     display: flex;
-    gap: 35px;
+    gap: 14px;
 }
 @media (max-width: 767px) {
     .gallery__controls{
         justify-content: space-between;
+        gap: 0;
     }
 }
-.gallery__control-next,
+
 .gallery__control-prev{
-    height: 34px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
     cursor: pointer;
     border: none;
     background-color: transparent;
-}
-.gallery__control-prev{
     background-image: url('../resources/arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
     transform: rotate(180deg);
 }
 .gallery__control-next{
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
     background-image: url('../resources/arrow.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -123,6 +131,6 @@
     .gallery__control-next,
     .gallery__control-prev{
         height: 30px;
-        width: 20px;
+        width: 30px;
     }
 }

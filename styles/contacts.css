@@ -64,10 +64,15 @@
     }
 }
 @media (max-width: 767px) {
-    .contact__phone,
+    .contact__phone{
+        font-size: 35px;
+        line-height: 45px;
+        width: 269px;
+    }
     .contact__mail{
         font-size: 35px;
         line-height: 45px;
+        width: 239px;
     }
 }
 
@@ -75,7 +80,6 @@
     content: '';
     position: absolute;
     top: -50px;
-    display: block;
     width: 24px;
     height: 24px;
     background-image: url('../resources/phone-icon.png');
@@ -87,7 +91,6 @@
     content: '';
     position: absolute;
     top: -50px;
-    display: block;
     width: 24px;
     height: 24px;
     background-image: url('../resources/mail-icon.png');
