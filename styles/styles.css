@@ -185,6 +185,23 @@ p{
     }
 }
 
+.container-gallery{
+    width: 1150px;
+    margin: 0 auto;
+}
+@media (max-width: 1199px) {
+    .container-gallery{
+        width: 100%;
+        padding-left: 50px;
+    }
+}
+@media (max-width: 767px) {
+    .container-gallery{
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+
 .container-comment{
     width: 1150px;
     margin: 0 auto;

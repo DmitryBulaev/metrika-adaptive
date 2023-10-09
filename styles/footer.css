@@ -3,7 +3,7 @@ footer{
 }
 
 .footer-nav-wrapper{
-    margin-bottom: 77px;
+    margin-bottom: 87px;
     display: flex;
     justify-content: center; 
 }
@@ -27,7 +27,7 @@ footer{
 
 .nav_theme-dark .nav__link{
     display: block;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -42,6 +42,7 @@ footer{
 
 .nav_theme-dark .nav__link:hover{
     opacity: 0.5;
+    border-bottom: 1px solid #fff;
 }
 
 .footer-text{
