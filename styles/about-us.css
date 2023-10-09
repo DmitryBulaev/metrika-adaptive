@@ -23,7 +23,7 @@
     }
 }
 
-.about-us__botton{
+.about-us__button{
     display: inline-block;
     border-radius: 5px;
     text-decoration: none;
@@ -33,17 +33,17 @@
     padding: 20px 40px;
     transition: 0.5s;
 }
-.about-us__botton:hover{
+.about-us__button:hover{
     background-color: #FFFFFF;
     color: #AD1818;
 }
 @media (max-width: 1199px) {
-    .about-us__botton{
+    .about-us__button{
         padding: 20px 40px;
     }
 }
 @media (max-width: 767px) {
-    .about-us__botton{
+    .about-us__button{
         padding: 14.5px 27px;
     }
 }

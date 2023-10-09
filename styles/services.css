@@ -128,14 +128,14 @@
     }
 }
 
-.botton-wrapper_dark{
+.button-wrapper_dark{
     margin-bottom: 0;
 }
 
-.full-wigth-botton_dark{
+.full-wigth-button_dark{
     width: 100%;
 }
-.full-wigth-botton__link_dark{
+.full-wigth-button__link_dark{
     display: block;
     width: 100%;
     height: 149px;
@@ -150,21 +150,21 @@
     transition: 0.5s;
 }
 @media (max-width: 767px) {
-    .full-wigth-botton__link{
+    .full-wigth-button__link{
         height: 100px;
         padding-bottom: 37px;
         padding-top: 37px;
     }
 }
-.full-wigth-botton__text_dark{
+.full-wigth-button__text_dark{
     font-size: 30px;
 }
 @media (max-width: 767px) {
-    .full-wigth-botton__text{
+    .full-wigth-button__text{
         font-size: 22px;
     }
 }
-.full-wigth-botton__link_dark:hover{
+.full-wigth-button__link_dark:hover{
     background-color: #121212;
     color: #AD1818;
 }

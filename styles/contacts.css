@@ -47,32 +47,7 @@
     .contacts{
         flex-direction: column;
         gap: 60px;
-    }
-}
-
-.contact__phone,
-.contact__mail{
-    position: relative;
-    font-size: 60px;
-    line-height: 70px;
-}
-@media (max-width: 1199px) {
-    .contact__phone,
-    .contact__mail{
-        font-size: 45px;
-        line-height: 55px;
-    }
-}
-@media (max-width: 767px) {
-    .contact__phone{
-        font-size: 35px;
-        line-height: 45px;
-        width: 269px;
-    }
-    .contact__mail{
-        font-size: 35px;
-        line-height: 45px;
-        width: 239px;
+        justify-content: left;
     }
 }
 
@@ -105,14 +80,35 @@
     height: 18px;
 }
 }
-.contact__phone_link,
-.contact__mail_link{
+
+.contact__phone,
+.contact__mail{
+    position: relative;
+    font-size: 60px;
+    line-height: 70px;
     text-decoration: none;
     color: #121212;
 }
+@media (max-width: 1199px) {
+    .contact__phone,
+    .contact__mail{
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+@media (max-width: 767px) {
+    .contact__phone{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .contact__mail{
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
 
-.contact__phone_link:hover,
-.contact__mail_link:hover{
+.contact__phone:hover,
+.contact__mail:hover{
     opacity: 0.5;
-    border-bottom: 1px solid #121212;
+    border-bottom: 2px solid #121212;
 }
