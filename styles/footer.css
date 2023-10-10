@@ -27,7 +27,6 @@ footer{
 }
 
 .nav_theme-dark .nav__link{
-    display: block;
     padding: 10px 10px 0 10px;
     text-decoration: none;
     color: #fff;
