@@ -247,13 +247,12 @@
     right: 34px;
     width: 30px;
     height: 30px;
-    padding: 10px;
     max-width: 100%;
     background-image: url('../resources/services/close-btn.png');
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
-    box-sizing: content-box;
+    object-fit: cover;
 }
 .popup__close-btn:hover{
     opacity: 0.5;
@@ -269,6 +268,5 @@
         right: 29px;
         width: 18px;
         height: 18px;
-        padding: 6px;
     }
 }
