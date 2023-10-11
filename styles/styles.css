@@ -8,59 +8,65 @@
 @import "contacts.css";
 @import "reset.css";
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: 'Manrope', sans-serif;
 }
-@media (max-width: 1199px){
-    main{
-        width: 100%;
-        padding: 0;
-    } 
-}
-@media (max-width: 767px) {
-    main{
+
+@media (max-width: 1199px) {
+    main {
         width: 100%;
         padding: 0;
     }
 }
- 
-.container{
+
+@media (max-width: 767px) {
+    main {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.container {
     width: 1150px;
     margin: 0 auto;
 }
+
 @media (max-width: 1199px) {
-    .container{
+    .container {
         width: 100%;
         padding-left: 17px;
         padding-right: 15px;
     }
 }
+
 @media (max-width: 767px) {
-    .container{
+    .container {
         padding-left: 13px;
         padding-right: 12px;
     }
 }
 
-section{
+section {
     margin-bottom: 150px;
 }
+
 @media (max-width: 1199px) {
-    section{
+    section {
         margin-bottom: 120px;
     }
 }
+
 @media (max-width: 767px) {
-    section{
+    section {
         margin-bottom: 80px;
     }
 }
 
-.intro-text{
+.intro-text {
     margin-bottom: 30px;
     width: 956px;
     font-size: 60px;
@@ -68,22 +74,24 @@ section{
     color: #121212;
     font-weight: 400;
 }
+
 @media (max-width: 1199px) {
-    .intro-text{
+    .intro-text {
         width: 100%;
         font-size: 50px;
         line-height: 60px;
     }
 }
+
 @media (max-width: 767px) {
-    .intro-text{
+    .intro-text {
         margin-bottom: 25px;
         font-size: 30px;
         line-height: 31.62px;
     }
 }
 
-.preview__img{
+.preview__img {
     position: relative;
     width: 100%;
     height: 500px;
@@ -92,18 +100,21 @@ section{
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
 @media (max-width: 1199px) {
-    .preview__img{
+    .preview__img {
         height: 400px;
     }
 }
+
 @media (max-width: 767px) {
-    .preview__img{
+    .preview__img {
         height: 304px;
     }
 }
+
 @media (max-width: 400px) {
-    .preview__img{
+    .preview__img {
         background-image: url('../resources/preview-mobile.png');
     }
 }
@@ -115,122 +126,136 @@ section{
     bottom: 40px;
     width: 430px;
 }
+
 @media (max-width: 1199px) {
-    .preview__text{
+    .preview__text {
         bottom: 30px;
         width: 430px
     }
 }
+
 @media (max-width: 767px) {
-    .preview__text{
+    .preview__text {
         left: 15px;
         bottom: 15px;
         width: 256px;
     }
 }
 
-h2{
+h2 {
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 24.59px;
     font-weight: 400;
     color: #121212;
 }
+
 @media (max-width: 1199px) {
-    h2{
+    h2 {
         width: 100%;
         font-size: 18px;
     }
 }
+
 @media (max-width: 767px) {
-    h2{
+    h2 {
         font-size: 14px;
         line-height: 19px;
         margin-bottom: 20px;
     }
 }
 
-p{
+p {
     font-size: 20px;
     line-height: 27px;
-    font-weight: 400; 
+    font-weight: 400;
 }
+
 @media (max-width: 767px) {
-    p{
+    p {
         font-size: 16px;
         line-height: normal;
     }
 }
 
-.section-black{
-    background-color:#121212;;
+.section-black {
+    background-color: #121212;
+    ;
     width: 100%;
 }
 
-.container-black{
+.container-black {
     width: 1150px;
     margin: 0 auto;
     padding-top: 151px;
     padding-bottom: 150px;
 }
+
 @media (max-width: 1199px) {
-    .container-black{
+    .container-black {
         width: 100%;
         padding: 151px 17px 120px 17px;
     }
 }
+
 @media (max-width: 767px) {
-    .container-black{
+    .container-black {
         padding: 80px 13px;
     }
 }
 
-.container-gallery{
+.container-gallery {
     width: 1150px;
     margin: 0 auto;
 }
+
 @media (max-width: 1199px) {
-    .container-gallery{
+    .container-gallery {
         width: 100%;
         padding-left: 50px;
     }
 }
+
 @media (max-width: 767px) {
-    .container-gallery{
+    .container-gallery {
         padding-left: 13px;
         padding-right: 13px;
     }
 }
 
-.container-comment{
+.container-comment {
     width: 1150px;
     margin: 0 auto;
     padding: 150px 0 157px 0;
 }
+
 @media (max-width: 1199px) {
-    .container-comment{
+    .container-comment {
         width: 100%;
         padding: 117px 15px 120px 16px;
     }
 }
+
 @media (max-width: 767px) {
-    .container-comment{
+    .container-comment {
         padding: 80px 13px 80px 14px;
     }
 }
 
-.footer-container{
+.footer-container {
     width: 1150px;
     margin: 0 auto;
     padding: 50px 0 30px 0;
 }
+
 @media (max-width: 1199px) {
-    .footer-container{
+    .footer-container {
         width: 100%;
     }
 }
+
 @media (max-width: 767px) {
-    .footer-container{
+    .footer-container {
         padding: 20px 0 26px 0;
     }
 }
