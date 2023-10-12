@@ -18,6 +18,14 @@
     }
 }
 
+@media (max-width: 767px) {
+    .logo__img_burger  {
+        margin-bottom: 50px;
+        height: 26px;
+        width: 156px;
+    }
+}
+
 .nav {
     display: flex;
     gap: 50px;
@@ -27,6 +35,16 @@
     .nav {
        display: none;
     }
+}
+
+.nav_burger {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav__link_burger {
+    font-size: 25px;
 }
 
 .nav__link {
@@ -67,6 +85,8 @@
 .burger__content {
     width: 75%;
     height: 100%;
+    padding: 30px;
+    padding-top: 80px;
     background-color: #fff;
 }
 
