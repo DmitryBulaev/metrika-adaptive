@@ -55,11 +55,12 @@
     content: '';
     position: absolute;
     top: -50px;
-    width: 24px;
+    width: 19px;
     height: 24px;
     background-image: url('../resources/phone-icon.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50%;
+    background-size: contain;
 }
 
 .contact__mail:before{
@@ -67,17 +68,22 @@
     position: absolute;
     top: -50px;
     width: 24px;
-    height: 24px;
+    height: 19px;
     background-image: url('../resources/mail-icon.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 50%;
+    background-size: contain;
 }
 @media (max-width: 767px) {
-.contact__phone:before,
+.contact__phone:before{
+    top: -45px;
+    width: 13px;
+    height: 18px;
+}
 .contact__mail:before{
     top: -45px;
     width: 18px;
-    height: 18px;
+    height: 15px;
 }
 }
 
