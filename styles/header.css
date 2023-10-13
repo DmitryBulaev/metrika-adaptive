@@ -18,6 +18,12 @@
     }
 }
 
+.logo__img_burger {
+    margin-bottom: 50px;
+    height: 46px;
+    width: 270px;
+}
+
 @media (max-width: 767px) {
     .logo__img_burger  {
         margin-bottom: 50px;
@@ -37,16 +43,6 @@
     }
 }
 
-.nav_burger {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.nav__link_burger {
-    font-size: 25px;
-}
-
 .nav__link {
     padding: 5px;
     text-decoration: none;
@@ -55,7 +51,7 @@
 }
 .nav__link:hover {
     opacity: 0.5;
-    border-bottom: 1px solid #121212 ;
+    border-bottom: 1px solid #121212;
 }
 
 .body_fixed {
@@ -76,6 +72,44 @@
     transition: all 0.2s ease; 
 }
 
+.nav-burger-wrapper{
+    margin-bottom: 90px;
+}
+
+.nav-burger {
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-burger__link {
+    text-decoration: none;
+    color: #121212; 
+    transition: 0.5s;
+    font-size: 25px;
+}
+.nav-burger__link:hover {
+    opacity: 0.5;
+}
+
+.burger-contacts {
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-left: 5px;
+    opacity: 0.5;
+}
+@media (max-width: 767px) {
+    .burger-contacts {
+        font-size: 16px;
+    }
+}
+
+.contacts_burger {
+    display: flex;
+    flex-direction: column;
+}
+
 .burger_open {
     opacity: 1;
     visibility: visible;
@@ -83,11 +117,18 @@
 }
 
 .burger__content {
+    position: relative;
     width: 75%;
     height: 100%;
     padding: 30px;
     padding-top: 80px;
+    overflow-y: scroll;
     background-color: #fff;
+}
+
+.burger-btn_open {
+    position: absolute;
+    right: 15px;
 }
 
 .burger-btn {
@@ -98,12 +139,15 @@
     .burger-btn {
        position: absolute;
        z-index: 110;
-       right: 20px;
+       right: 1px;
        top: 5px;
        display: block;
-       width: 30px;
-       height: 8px;
-       background-color: red;
+       width: 50px;
+       height: 10px;
+       background-image: url('../resources/burger-btn.png');
+       background-repeat: no-repeat;
+       background-position: 50%;
+       background-size: cover;
     }
     .burger-btn_open {
         background-color: #fff;
@@ -116,3 +160,13 @@
         background-size: cover;
     }   
 }
+@media (max-width: 767px) {
+    .burger-btn {
+        width: 38px;
+        height: 7px;
+    }
+    .burger-btn_open {
+        width: 20px;
+        height: 20px;
+    }
+}   

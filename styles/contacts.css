@@ -24,11 +24,11 @@
     }
 }
 
-.cantacts-wrapper{
+.contacts-wrapper{
     margin-top: 74px;
 }
 @media (max-width: 767px) {
-    .cantacts-wrapper{
+    .contacts-wrapper{
         margin-top: 65px;
     }
 }
