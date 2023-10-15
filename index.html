@@ -45,7 +45,7 @@
           <div class="burger-btn js-burger-btn"></div>
         </div>
         <div class="burger js-burger">
-          <div class="burger__content js-burger__content">
+          <div class="burger__content">
             <div class="logo">
               <a class="logo__link" href="/">
                 <img
@@ -64,7 +64,7 @@
               </nav>
             </div>
             <p class="connection">ДЛЯ СВЯЗИ:</p>
-            <div class="contacts-burger">
+            <div class="contacts-burger js-burger__content">
               <a href="tel:+7 935 895-45-35" class="contacts-burger__phone">
                 +7 935 895-45-35
               </a>
@@ -271,19 +271,26 @@
                 Заполните форму, мы свяжемся с вами в течение суток
               </p>
               <div class="inputs-wrapper">
-                <div class="inputs">
-                  <input class="input" type="text" placeholder="Имя" />
+                <form class="inputs" autocomplete="on">
                   <input
                     class="input"
                     type="text"
+                    name="name"
+                    placeholder="Имя"
+                  />
+                  <input
+                    class="input"
+                    type="email"
+                    name="email"
                     placeholder="Электронная почта"
                   />
                   <input
                     class="input"
-                    type="text"
+                    type="tel"
+                    name="tel"
                     placeholder="Номер телефона"
                   />
-                </div>
+                </form>
               </div>
               <button class="popup__button">Отправить</button>
               <div class="popup__close-btn js-popup__close-btn"></div>

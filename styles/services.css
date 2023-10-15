@@ -309,6 +309,7 @@
     color: #FFFFFF;
     background-color: #AD1818;
     text-decoration: none;
+    cursor: pointer;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 0.5s;
@@ -343,7 +344,7 @@
     .popup__close-btn {
         top: 40px;
         right: 29px;
-        width: 18px;
+        width: 18px;    
         height: 18px;
         background-image: url('../resources/services/close-btn-mobile.png');
     }
