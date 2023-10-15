@@ -21,7 +21,7 @@
 .project__img{
     width: 100%;
     height: 450px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 @media (max-width: 1199px) {
     .project__img{
@@ -37,7 +37,7 @@
 }
 
 .project__description{
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     width: 100%;
     height: 27px;
     font-size: 30px;

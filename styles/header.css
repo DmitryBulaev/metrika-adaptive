@@ -47,6 +47,7 @@
     padding: 5px;
     text-decoration: none;
     color: #121212; 
+    font-size: 18px;
     transition: 0.5s;
 }
 .nav__link:hover {

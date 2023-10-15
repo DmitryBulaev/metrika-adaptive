@@ -19,7 +19,7 @@ body {
 .container-head {
     width: 1150px;
     margin: 0 auto;
-    padding-top: 33px;
+    padding-top: 30px;
     padding-bottom: 73px;
 }
 @media (max-width: 1199px) {
